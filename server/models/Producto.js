@@ -13,6 +13,6 @@ export default class Producto {
     }
     getParsedObject() {
         let parsedJSON = JSON.stringify(this, null, 4);
-        return JSON.parse(parsedJSON);;
+        return JSON.parse(parsedJSON);
     }
 }
